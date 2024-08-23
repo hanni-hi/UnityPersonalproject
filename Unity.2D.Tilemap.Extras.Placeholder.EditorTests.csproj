@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2E6C8F1F-365F-58BF-4B9C-E39818863A49}</ProjectGuid>
+    <ProjectGuid>{E19A2DCD-47D5-3BEC-704A-A9FB1D430B0D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Extras.Placeholder.EditorTests</AssemblyName>
@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2d-extras-master\Tests\Editor\PlaceholderTests.cs" />
+    <Compile Include="Assets\2d-extras-2020.3\Tests\Editor\PlaceholderTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\2d-extras-master\Tests\Editor\Unity.2D.Tilemap.Extras.EditorTests.asmdef" />
+    <None Include="Assets\2d-extras-2020.3\Tests\Editor\Unity.2D.Tilemap.Extras.EditorTests.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
