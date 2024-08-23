@@ -15,11 +15,11 @@ C:/Users/KGA/UnityPersonalproject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55573
+56886
 Successfully changed project path to: C:/Users/KGA/UnityPersonalproject
 C:/Users/KGA/UnityPersonalproject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003389 seconds.
+Registered in 0.001369 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.480 seconds
+- Completed reload, in  0.410 seconds
 Domain Reload Profiling:
-	ReloadAssembly (480ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (410ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (326ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (135ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (132ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (57ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006720 seconds.
+Registered in 0.004766 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  0.863 seconds
 Domain Reload Profiling:
-	ReloadAssembly (949ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (803ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (268ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.4 MB.
 System memory in use after: 113.4 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2874.
-Total: 2.979600 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.103800 ms MarkObjects: 2.631400 ms  DeleteObjects: 0.058800 ms)
+Total: 2.496200 ms (FindLiveObjects: 0.155900 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.216100 ms  DeleteObjects: 0.060300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,360 +132,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png
-  artifactKey: Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png using Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7552409f31d2c283cb0052bfb0103475') in 0.077986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.014838 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Floors.png
-  artifactKey: Guid(ae526d820a7a4d54495e7d0dd7dda3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Floors.png using Guid(ae526d820a7a4d54495e7d0dd7dda3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fedb879bfc1d316992dd741fe5f390') in 0.012956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.924831 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png
-  artifactKey: Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png using Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f997ebd1cc079aa64e99f4a8acef9c3') in 0.017795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.785398 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Signs.png
-  artifactKey: Guid(617401e20f2baf34eb4c5b641e0db45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Signs.png using Guid(617401e20f2baf34eb4c5b641e0db45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d186c90f00b9992e403bdbd4317885d') in 0.013969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6700.726927 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack
-  artifactKey: Guid(7e2b403a46f640846b0b62488ab639b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack using Guid(7e2b403a46f640846b0b62488ab639b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd038c9ea7bb9f698f5b5e8a215c90bb1') in 0.010456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.688385 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack
-  artifactKey: Guid(d4cb8bab392b6884daaf635480d845a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack using Guid(d4cb8bab392b6884daaf635480d845a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b3456d8b8fa9b05daec1bbda33ea24') in 0.009587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 126.748377 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout
-  artifactKey: Guid(97e0072142ae0734797d37072b8acf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout using Guid(97e0072142ae0734797d37072b8acf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e9023f58eab65b55114e52721fd83f') in 0.009258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.010418 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_SouthEast.png
-  artifactKey: Guid(c60bf36b9f4af6f47935f3d1b10b3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Corner_SouthEast.png using Guid(c60bf36b9f4af6f47935f3d1b10b3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb3f62178e8e6ea279de1f874aa5cc0') in 0.055754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.327576 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_NorthEast.png
-  artifactKey: Guid(4c8f2f8cf88e8a34daedef068ba6f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_NorthEast.png using Guid(4c8f2f8cf88e8a34daedef068ba6f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e36818e230952a9667b8572aeeba97') in 0.012779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.410492 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_SouthEast.png
-  artifactKey: Guid(1699888d96981db47895b59891746e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Edge_SouthEast.png using Guid(1699888d96981db47895b59891746e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf3dbd2d9a8cc7a26fdf71f6a68f151') in 0.012814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.313212 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Flat_North.png
-  artifactKey: Guid(1c6a60e4e8d19584389ed51e0a25d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/simpel versions/Grass tiles v2 simple cutout/Grass_tiles_v2_Flat_North.png using Guid(1c6a60e4e8d19584389ed51e0a25d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831a19dfb552c4b255911c0dadfcc704') in 0.012341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.051753 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png
-  artifactKey: Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png using Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acba915267d5abaf6d1ef3a9e8e33696') in 0.019150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 563.160944 seconds.
-  path: Assets/1.Scene/Try3.unity
-  artifactKey: Guid(99094217221e0704793f429520d49c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Scene/Try3.unity using Guid(99094217221e0704793f429520d49c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49ce812902d93f3a363a11fc3d136f2') in 0.007882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.322508 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_Slopes v.2.png
-  artifactKey: Guid(4f854a45401d97441b7a66486f4e87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_Slopes v.2.png using Guid(4f854a45401d97441b7a66486f4e87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e62cf08d7241e1ffc691b141ba60a7d') in 0.015965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.853530 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Bush_Tiles.png
-  artifactKey: Guid(63f4d545040115341b42d7e566b653ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Bush_Tiles.png using Guid(63f4d545040115341b42d7e566b653ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9434560f55ba6592b1c6978baff7c9') in 0.017383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.652550 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Grass_Tile_Layers2.png
-  artifactKey: Guid(daae657e29127454d9e25e098fdf13b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Grass_Tile_Layers2.png using Guid(daae657e29127454d9e25e098fdf13b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179a997f101389f8eb18a5b3e893ea56') in 0.016956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.685548 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_v2.png
-  artifactKey: Guid(5cd6ed82add9c1041b0e88653d06cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_v2.png using Guid(5cd6ed82add9c1041b0e88653d06cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf03b80bc296299da82d7230a2e29079') in 0.013684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 98.658504 seconds.
-  path: Assets/Test
-  artifactKey: Guid(b9500394ee7ca4942b5e122b991fcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test using Guid(b9500394ee7ca4942b5e122b991fcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2213c402c54e9e4808938c5552935d') in 0.008150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.888201 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_v2 1.png
-  artifactKey: Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Hill_Tiles_v2 1.png using Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2221ba7edf61d4fa82da68f87e976e') in 0.013020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.013509 seconds.
-  path: Assets/Test/Grass_Hill_Tiles_v2 1.png
-  artifactKey: Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Grass_Hill_Tiles_v2 1.png using Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af3ad5b1411a0252477856c18c8c7db') in 0.010722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 123.946354 seconds.
-  path: Assets/Test/Grass_Hill_Tiles_v2 1.png
-  artifactKey: Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Grass_Hill_Tiles_v2 1.png using Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcb1afc0fb14c1440da910d47ae02a7') in 0.089896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 144.254508 seconds.
-  path: Assets/Test/Rectangular Palette.prefab
-  artifactKey: Guid(85ebac27601e2dd45b4bed77e2295be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Rectangular Palette.prefab using Guid(85ebac27601e2dd45b4bed77e2295be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a80c8ae323116f1561a93765ff4bc2') in 0.084101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.390172 seconds.
-  path: Assets/Test/Grass_Hill_Tiles_v2 1.png
-  artifactKey: Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Grass_Hill_Tiles_v2 1.png using Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083dda02d83a28a0e9a0f32f8e426f1') in 0.118798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.911881 seconds.
-  path: Assets/Test/Grass_Hill_Tiles_v2 1.png
-  artifactKey: Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test/Grass_Hill_Tiles_v2 1.png using Guid(18faa72b4c6964f4597e724e40940988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83242b1085037ab6e3df4890820402c0') in 0.077560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 165.281604 seconds.
-  path: Assets/2.Model/Prefabs/sample_prefabs/cuteGirl 06.prefab
-  artifactKey: Guid(34977d53956263349b0369ec592d427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.Model/Prefabs/sample_prefabs/cuteGirl 06.prefab using Guid(34977d53956263349b0369ec592d427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c91f11abefa4a17a0ab02d7893259f') in 0.018180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 505.168597 seconds.
   path: Assets/1.Scene/Try1.unity
   artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Scene/Try1.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9381a5008e36f1e2aa0af3fb095aa41') in 0.009018 seconds 
+Start importing Assets/1.Scene/Try1.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ed87d94195381e1bc7d32fe76431f5') in 0.011165 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 254.722305 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png
-  artifactKey: Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png using Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921d2210dd0312b07efadb1550e05715') in 0.181428 seconds 
+  Time since last request: 1.429491 seconds.
+  path: Assets/1.Scene/Try1 1.unity
+  artifactKey: Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1 1.unity using Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46fa600c8e4607b97a89bea67e1ab94') in 0.010291 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 299.310555 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png
-  artifactKey: Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png using Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91976ae0012ce3dcc38431a1426c49ad') in 0.016779 seconds 
+  Time since last request: 27.078141 seconds.
+  path: Assets/1.Scene/Try1-Home.unity
+  artifactKey: Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Home.unity using Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bea54c0d1a830dbce19358b6faca9e6') in 0.009543 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.981692 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png
-  artifactKey: Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png using Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986a20cc3b548ba72e302ccedadf80b1') in 0.071620 seconds 
+  Time since last request: 4.015558 seconds.
+  path: Assets/1.Scene/Try1-Market+farm.unity
+  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47aa8348d3a40d4e6346301148c0083') in 0.009590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.355389 seconds.
+  path: Assets/1.Scene/Try1-Home.unity
+  artifactKey: Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Home.unity using Guid(005cb9cb9bebaf041a7cc1b24d2b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c60cb95b90379675eb82ab7ad6e493') in 0.003309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.752372 seconds.
+  path: Assets/1.Scene/Try1-Market+farm 1.unity
+  artifactKey: Guid(a0d2327f50a48894bb529748df307a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm 1.unity using Guid(a0d2327f50a48894bb529748df307a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7911f542fc35ff2c4b6082c1238854df') in 0.010582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.522490 seconds.
+  path: Assets/1.Scene/Try1-Home.unity
+  artifactKey: Guid(a0d2327f50a48894bb529748df307a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Home.unity using Guid(a0d2327f50a48894bb529748df307a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4e023829599b1d18a48bc031bfe419') in 0.002593 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004619 seconds.
+Registered in 0.004443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
+- Completed reload, in  0.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (296ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.0 MB.
-System memory in use after: 110.2 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3049.
-Total: 2.725800 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.424900 ms  DeleteObjects: 0.023600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 180.240217 seconds.
-  path: Assets/Tiles/Tilepalet/4thpalet.prefab
-  artifactKey: Guid(a6af56ee48d8e144c97059a872bffb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tilepalet/4thpalet.prefab using Guid(a6af56ee48d8e144c97059a872bffb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c677ca7e8135cd859afa956edee8fb') in 0.052483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.178610 seconds.
-  path: Assets/Tiles/Tilepalet/3rdPalette.prefab
-  artifactKey: Guid(20aab95bd2f80174d9c2d77d737d6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tilepalet/3rdPalette.prefab using Guid(20aab95bd2f80174d9c2d77d737d6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb57c5439ba4ced36365c8d3f9b38abd') in 0.022953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.811889 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Soil_Ground_Hills_Tiles.png
-  artifactKey: Guid(8f7039c4421ff914fbee18ecedd53b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Soil_Ground_Hills_Tiles.png using Guid(8f7039c4421ff914fbee18ecedd53b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65937856719b3ce5bae0da464b4ccd') in 0.023004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.188189 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Soil_Ground_Tiles.png
-  artifactKey: Guid(c37ff0076844c0549a9109f5c7f7bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Darker_Soil_Ground_Tiles.png using Guid(c37ff0076844c0549a9109f5c7f7bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b3809afa7bc16e0e6589fd20b07a06') in 0.026549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.875017 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Tile_Layers.png
-  artifactKey: Guid(25644b48782858b42b53893d76ca56cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Grass_Tile_Layers.png using Guid(25644b48782858b42b53893d76ca56cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94409995c0adcfb2107801e5cb89767a') in 0.013677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.431755 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Ground_Hill_Tiles_Slopes.png
-  artifactKey: Guid(30a52b41beb25e74c8841694457492bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Ground_Hill_Tiles_Slopes.png using Guid(30a52b41beb25e74c8841694457492bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0302dae744d62603d1ac669733dadb') in 0.025210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.902839 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Soil_Ground_HiIls_Tiles.png
-  artifactKey: Guid(be621a6cbe6c11a4598aff36d78e1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/New tiles/Soil_Ground_HiIls_Tiles.png using Guid(be621a6cbe6c11a4598aff36d78e1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba12d114b765c3b3d49ccde6114b540') in 0.015641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.351262 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a/Asset License Updated 01 February 2024.txt
-  artifactKey: Guid(96e432748c486f3478e397ecb8b52c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Asset License Updated 01 February 2024.txt using Guid(96e432748c486f3478e397ecb8b52c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0807df2cb87a24f9ee3301bd823e2688') in 0.010233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.897118 seconds.
-  path: Assets/World of Solaria Marketplace Tileset Update 04a
-  artifactKey: Guid(48bb071e24681824c8a4846899e4e36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/World of Solaria Marketplace Tileset Update 04a using Guid(48bb071e24681824c8a4846899e4e36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb584f7181a7f605226a22b7a26682d') in 0.008928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.842880 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/mailbox animation.aseprite
-  artifactKey: Guid(036a52f133ea5ef4f992f94c30fb7e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/mailbox animation.aseprite using Guid(036a52f133ea5ef4f992f94c30fb7e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a460aa464b402178e8a0ce16cb9d0f') in 0.010347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.337599 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Mailbox Animation Frames.png
-  artifactKey: Guid(bf5fbf324457a9548a56984a0af2eda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Mailbox Animation Frames.png using Guid(bf5fbf324457a9548a56984a0af2eda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cb50f594d750fba0ee9591a3655889') in 0.020007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.047563 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png
-  artifactKey: Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png using Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55a3c6090613c6a32dc6844be22325c') in 0.011888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.422432 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png
-  artifactKey: Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png using Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49bad14f989e26e24b48930d665a2d9') in 0.041386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.315209 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites .png
-  artifactKey: Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites .png using Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c75eebb48ae8e3e673cec4c0da36ee') in 0.011096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.683612 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites .png
-  artifactKey: Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites .png using Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2ea8eed8501b940225b24e9ad7315') in 0.035836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.828707 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites.png
-  artifactKey: Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites.png using Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e0b05cdf03235a9fdc36bf87593f94') in 0.045248 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Domain Reload Profiling:
-	ReloadAssembly (777ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (643ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
+				BeforeProcessingInitializeOnLoad (61ms)
 				ProcessInitializeOnLoadAttributes (211ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (5ms)
@@ -493,14 +208,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.2 MB.
-System memory in use after: 110.4 MB.
+System memory in use before: 109.6 MB.
+System memory in use after: 109.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3104.
-Total: 2.862500 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.520200 ms  DeleteObjects: 0.020800 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 2.623400 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.351600 ms  DeleteObjects: 0.022300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -515,356 +230,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 543.891265 seconds.
-  path: Assets/ARISAN/10 cute girl character set/sampleSettings.lighting
-  artifactKey: Guid(26a0a5d63cae6384eb67ed2b764fdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARISAN/10 cute girl character set/sampleSettings.lighting using Guid(26a0a5d63cae6384eb67ed2b764fdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'bfa33faa6a79bdb7ed7010c07a428d2a') in 0.018451 seconds 
+  Time since last request: 106.106330 seconds.
+  path: Assets/3.Script/Move.cs
+  artifactKey: Guid(0c6fd13a23a77d64093859cfc80ff62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.Script/Move.cs using Guid(0c6fd13a23a77d64093859cfc80ff62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3233b9df62d1eb61f0c921cfadb5b3') in 0.037054 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.753855 seconds.
-  path: Assets/1.Scene/Try1.unity
-  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Scene/Try1.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56e1249c40bf1dfc232af0f63f0a5c6') in 0.009415 seconds 
+  Time since last request: 82.388508 seconds.
+  path: Assets/3.Script/Move.cs
+  artifactKey: Guid(0c6fd13a23a77d64093859cfc80ff62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.Script/Move.cs using Guid(0c6fd13a23a77d64093859cfc80ff62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a17821e63d37b58ced1e31f8c5956f7') in 0.003485 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004537 seconds.
+Registered in 0.004631 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.785 seconds
 Domain Reload Profiling:
-	ReloadAssembly (807ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (676ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.2 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3107.
-Total: 2.829600 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.552400 ms  DeleteObjects: 0.021300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 222.712804 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites.png
-  artifactKey: Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fence gates animation sprites.png using Guid(260e58fc4534e3144bf134ae7ed61496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a46c150eb292d4d2fc07f7eec329b') in 0.071505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.121191 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/weather
-  artifactKey: Guid(56eaade061f293a449b6d51cf75cd929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/weather using Guid(56eaade061f293a449b6d51cf75cd929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b0cf6cc8066f4c21793e1bfb12c477') in 0.010364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.871861 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Blocks_Spritesheet.png
-  artifactKey: Guid(ff53affa0b116cb4e8ff3be7af35191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Blocks_Spritesheet.png using Guid(ff53affa0b116cb4e8ff3be7af35191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ad3061eda62893f6c70a77397aee2') in 0.017312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.268204 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example.png
-  artifactKey: Guid(dca07fbe2c24f974f85d2b4a47a6765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example.png using Guid(dca07fbe2c24f974f85d2b4a47a6765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346e5685591a2aeb5f49ea6a1f9a051a') in 0.014949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.660882 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_2.png
-  artifactKey: Guid(66296feea97ef95429a3b8ec55ace107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_2.png using Guid(66296feea97ef95429a3b8ec55ace107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edaa3fb2347bbf181b3448565833ec9') in 0.013192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.151629 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_with_slots.png
-  artifactKey: Guid(3b2ac92ab36e7294c947110090ddb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_with_slots.png using Guid(3b2ac92ab36e7294c947110090ddb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c898745adff4a93551b9f19bd01b62d') in 0.028921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.079225 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_with_slots_2.png
-  artifactKey: Guid(9c5a6534952c2dd459d75a01fddb40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_example_with_slots_2.png using Guid(9c5a6534952c2dd459d75a01fddb40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403d113b98fea189ac38cc6b45ef7ab9') in 0.012593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.799695 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Herat_Spritesheet.png
-  artifactKey: Guid(4e99374eafe66e04bbc61a691a4f9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Herat_Spritesheet.png using Guid(4e99374eafe66e04bbc61a691a4f9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed3dfa03b7b38010e1736254ef6e4f8') in 0.013783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.894107 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example.png
-  artifactKey: Guid(485c45ec70a0f8d408066274031539e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example.png using Guid(485c45ec70a0f8d408066274031539e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1b98be51f55830738b3cbfc0474e11') in 0.021456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.390858 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example_2.png
-  artifactKey: Guid(5234245003ce17b4a8a688c9ac28f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example_2.png using Guid(5234245003ce17b4a8a688c9ac28f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e476c05c6eb12064bf63e0bdc09fd8') in 0.013257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.727365 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example_with_slots.png
-  artifactKey: Guid(c2a0d44705f32744c8b0607192b6d9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/inventory_Light_example_with_slots.png using Guid(c2a0d44705f32744c8b0607192b6d9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208168397a0016cba23f7e842e9f98e7') in 0.018589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.914730 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Light_example_with_slots_2.png
-  artifactKey: Guid(9bb6a08cab0b5bc419f380c79915b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Light_example_with_slots_2.png using Guid(9bb6a08cab0b5bc419f380c79915b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54cc1bfa290530600214862f75ba0d') in 0.029604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.837024 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Light_Herat_Spritesheet.png
-  artifactKey: Guid(9bb636d368de2a6469936254ad1bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Light_Herat_Spritesheet.png using Guid(9bb636d368de2a6469936254ad1bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb6933ccf989d46d776e5d523d4d26e') in 0.013485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.080515 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Spritesheet.png
-  artifactKey: Guid(9781a7c699638784781e684926e4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui/Inventory_Spritesheet.png using Guid(9781a7c699638784781e684926e4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd42a5b33ae5891f33002c81998795e') in 0.026542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.506494 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_grey.png
-  artifactKey: Guid(36ac69af059ed9249a4f4aa6fd035d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_grey.png using Guid(36ac69af059ed9249a4f4aa6fd035d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a1e2d27ef9530e5db42a3a3998a46') in 0.013694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.741325 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_pink.png
-  artifactKey: Guid(d27b1809b2a0cdf4bbf7324016d77736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_pink.png using Guid(d27b1809b2a0cdf4bbf7324016d77736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd78e84da3da6a2c3eb52ac3c465280b') in 0.013887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.782357 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_yellow.png
-  artifactKey: Guid(46a574ab9464f804f9aa14cb895a1ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_yellow.png using Guid(46a574ab9464f804f9aa14cb895a1ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6536a66395affc5b80be35357f0bde') in 0.019210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.746165 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_purple.png
-  artifactKey: Guid(ec14802a38bca134bb7a503e8704dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/speech_bubble_purple.png using Guid(ec14802a38bca134bb7a503e8704dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fee3f249ceb7ac1bd7aaf33297d14a9') in 0.019789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.352235 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/coins.png
-  artifactKey: Guid(e78e42c70590d5743b2606701ead2999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/coins.png using Guid(e78e42c70590d5743b2606701ead2999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5395a9a54e793c6dfac8b3ff3fd19b9') in 0.013776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.566217 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Hearts in wood.png
-  artifactKey: Guid(1fc984e958a00824cba884552488a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Hearts in wood.png using Guid(1fc984e958a00824cba884552488a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250efb31de0097ebade2b3d517a4c34c') in 0.028382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.825224 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Hearts.png
-  artifactKey: Guid(9dde48741a449e7429add216bd56e892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Hearts.png using Guid(9dde48741a449e7429add216bd56e892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbc1439ea92f3f35e426dd57eb147b5') in 0.028433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.278673 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Medium Happines-Sadness icons.png
-  artifactKey: Guid(8da049e594b723744add4172decd6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Medium Happines-Sadness icons.png using Guid(8da049e594b723744add4172decd6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b834fa509df293adc6f20d6dbe4fc7') in 0.021767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.942006 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Small Happines-Sadness icons.png
-  artifactKey: Guid(9f55e7bfe65d3eb459bcb6628ac94da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/Small Happines-Sadness icons.png using Guid(9f55e7bfe65d3eb459bcb6628ac94da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e76825d7090aa0db2b2bd0436dae9d') in 0.030848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.133185 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/stars in wood.png
-  artifactKey: Guid(2621a0f8d26637b43b43d65ddb102fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/stars in wood.png using Guid(2621a0f8d26637b43b43d65ddb102fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e540a7eebab80bede13b49a28fe978') in 0.028431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.320613 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/stars.png
-  artifactKey: Guid(b9435d5c6344cbc46aa9bf6d280c0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons/special icons/stars.png using Guid(b9435d5c6344cbc46aa9bf6d280c0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc7a331a058a98f73b51ee5b3dc5e7f') in 0.020070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.769269 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Mouse sprites/Arrow Mouse icon 2.png
-  artifactKey: Guid(0457ded2538c40742af1a7345d1db183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Mouse sprites/Arrow Mouse icon 2.png using Guid(0457ded2538c40742af1a7345d1db183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4abc753d1cabe71849528635d86455a') in 0.016126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 87.186840 seconds.
-  path: Assets/1.Scene/Try1.unity
-  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Scene/Try1.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35ab8730bb278eadcc94e5666b73993') in 0.010149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.515004 seconds.
-  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/tiny emotes.png
-  artifactKey: Guid(05108529b0e5dde488324608f916b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/tiny emotes.png using Guid(05108529b0e5dde488324608f916b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba3d78ef1d2c278bab11ad3c73f3512') in 0.012505 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
-Domain Reload Profiling:
-	ReloadAssembly (794ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.3 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3133.
-Total: 2.820900 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.529100 ms  DeleteObjects: 0.022500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.035552 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Characters/Tools.png
-  artifactKey: Guid(3a0bb7668b27293478f4e13e2e0c2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Characters/Tools.png using Guid(3a0bb7668b27293478f4e13e2e0c2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8841b09c7fb3b0901ebf0e6cd87f7758') in 0.040553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.935862 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Characters/Premium Charakter Spritesheet.png
-  artifactKey: Guid(9ed4004dd01e51542a939beb41c86480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Characters/Premium Charakter Spritesheet.png using Guid(9ed4004dd01e51542a939beb41c86480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bedc72187b7875c2dd0ac6fa9533c7') in 0.417822 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004436 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Domain Reload Profiling:
-	ReloadAssembly (778ms)
+	ReloadAssembly (785ms)
 		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (210ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2880.
+Total: 2.413400 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.152200 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.610575 seconds.
+  path: Assets/1.Scene/Try1-Market+farm.unity
+  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f547e42aa173922afe8baeb937cb2937') in 0.006390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.931011 seconds.
+  path: Assets/1.Scene/Try3.unity
+  artifactKey: Guid(99094217221e0704793f429520d49c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try3.unity using Guid(99094217221e0704793f429520d49c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65ea466359e09fdcd43f5a9e3785841') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.625027 seconds.
+  path: Assets/3.Script/SortingLayerHelper.cs
+  artifactKey: Guid(6d974883a1ad7194b9bdd3c902e663a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.Script/SortingLayerHelper.cs using Guid(6d974883a1ad7194b9bdd3c902e663a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e054d2d124672b7bba4c6a51e6ac4') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.193798 seconds.
+  path: Assets/3.Script/SortingLayerHelper.cs
+  artifactKey: Guid(6d974883a1ad7194b9bdd3c902e663a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.Script/SortingLayerHelper.cs using Guid(6d974883a1ad7194b9bdd3c902e663a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0443ce2e28e996b024f55c4ff10f640') in 0.004537 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.062903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (209ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.6 MB.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 110.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3209.
-Total: 2.935800 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.638500 ms  DeleteObjects: 0.020400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2884.
+Total: 2.455600 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.207700 ms  DeleteObjects: 0.020500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -880,48 +381,105 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005128 seconds.
+Registered in 0.004489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.779 seconds
 Domain Reload Profiling:
-	ReloadAssembly (764ms)
+	ReloadAssembly (780ms)
 		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (297ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.7 MB.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 110.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3212.
-Total: 2.800000 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.517600 ms  DeleteObjects: 0.022700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2887.
+Total: 2.605100 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.344900 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 4.956100 ms (FindLiveObjects: 0.491200 ms CreateObjectMapping: 0.070600 ms MarkObjects: 4.342200 ms  DeleteObjects: 0.051400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -936,38 +494,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 693.301618 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png
-  artifactKey: Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png using Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7325e6f66a0b087c1425b93a522803bb') in 0.044333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.919832 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_Wide.png
-  artifactKey: Guid(7e9defbdf97cfc74a9d167d2848d04d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_Wide.png using Guid(7e9defbdf97cfc74a9d167d2848d04d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfedbc6e3bdcdf83d5bab7a9f93026ff') in 0.024485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.853141 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png
-  artifactKey: Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png using Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01009cb88bccafe8e0fe83f24ffd00ea') in 0.011447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.431948 seconds.
-  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png
-  artifactKey: Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/ground tiles/Old tiles/Tilled_Dirt_v2.png using Guid(64c0044fa3a7ea04995e1c2792f3a12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e475f85b5aa3e61205cd6797a491f30') in 0.095168 seconds 
+  Time since last request: 237.516055 seconds.
+  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png
+  artifactKey: Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Objects.png using Guid(8acdaaec1305e854b9787702ae7d648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb72d4c859fad34ec6ce8b032653103') in 0.197355 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004602 seconds.
+Registered in 0.005966 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
 	ReloadAssembly (780ms)
 		BeginReloadAssembly (92ms)
@@ -976,33 +516,33 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (209ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (214ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.7 MB.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 110.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3216.
-Total: 2.483500 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.224100 ms  DeleteObjects: 0.021200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3021.
+Total: 2.657000 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.383500 ms  DeleteObjects: 0.017900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1016,50 +556,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 220.846565 seconds.
+  path: Assets/Sprout Lands - Sprites - premium pack/Characters/Premium Charakter Spritesheet.png
+  artifactKey: Guid(9ed4004dd01e51542a939beb41c86480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - Sprites - premium pack/Characters/Premium Charakter Spritesheet.png using Guid(9ed4004dd01e51542a939beb41c86480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bfdf51d43159f370ce9b849f2a666e') in 0.293194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.046761 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui
+  artifactKey: Guid(ab8c86ae1bebd8c418724ee33248e662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/emojis/emoji style ui using Guid(ab8c86ae1bebd8c418724ee33248e662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323b52db4049563d3406b16fe1666843') in 0.009920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.198159 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/buttons/round
+  artifactKey: Guid(2a3bc52d2757cb4418c4eefbce796fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/buttons/round using Guid(2a3bc52d2757cb4418c4eefbce796fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32de2ba709f24bd6a5faedf25f41a86') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546065 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/buttons/square
+  artifactKey: Guid(679b5ee803029d34d9d7571a47d791c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/buttons/square using Guid(679b5ee803029d34d9d7571a47d791c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927c01ede34a125783fc9a5427c2461') in 0.009780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.104683 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI
+  artifactKey: Guid(907e8968f63c3714abf5ea9446c63152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI using Guid(907e8968f63c3714abf5ea9446c63152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039f32b39c098c7d43074f18c88a0ffa') in 0.009676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.795276 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/Emotes
+  artifactKey: Guid(2809de59b66741b46b5bf4af3503fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/Emotes using Guid(2809de59b66741b46b5bf4af3503fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b1c8b45c8eda2d530decbd10cea187') in 0.009682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384884 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/dialog box character finished talking click to continue indicator - spritesheet .png
+  artifactKey: Guid(a8d148fe84e15dd4ba0058cb44e64301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/dialog box character finished talking click to continue indicator - spritesheet .png using Guid(a8d148fe84e15dd4ba0058cb44e64301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7cce1bd448b6741d3b8f4e6aceb434') in 0.016009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.633619 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/Premade dialog box small.png
+  artifactKey: Guid(9fcae6333d211e743adb1c7fd7b5ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Dialouge UI/Premade dialog box small.png using Guid(9fcae6333d211e743adb1c7fd7b5ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b22dfb36667d201e08f9529a61b0a') in 0.015485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292493 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons
+  artifactKey: Guid(8e7c11ab74f8faf449421845c4c67c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Icons using Guid(8e7c11ab74f8faf449421845c4c67c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb330020f6642588aad81f60ede9f02') in 0.009310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.618492 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Mouse sprites
+  artifactKey: Guid(0e9bd084ec20dc04b9cbbb3f07fa56a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Mouse sprites using Guid(0e9bd084ec20dc04b9cbbb3f07fa56a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d46ceaadd129c8fa274f2cc7f81ed20') in 0.009793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235368 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Other UI sprites
+  artifactKey: Guid(41511fde03387bd4684bd833f8a79407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Other UI sprites using Guid(41511fde03387bd4684bd833f8a79407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65a3e9b4bc2fcf243e108b1dab8be47') in 0.009754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.426017 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/read_me.txt
+  artifactKey: Guid(aa107968b4a59d94e941303f3d9e35b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/read_me.txt using Guid(aa107968b4a59d94e941303f3d9e35b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37e8405c37a71da93d97c47230077ae') in 0.011357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.331688 seconds.
+  path: Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Other UI sprites/UI Big Play Button.png
+  artifactKey: Guid(5f463032bcd24d143890b4c3b1235e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - UI Pack - Premium pack/UI Sprites/Other UI sprites/UI Big Play Button.png using Guid(5f463032bcd24d143890b4c3b1235e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583f7e808d9ef1f8818ca8a808a5a6cc') in 0.019457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.511196 seconds.
+  path: Assets/9.Sliced/Paths.png
+  artifactKey: Guid(cd8382c347d632741ba27969a621eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9.Sliced/Paths.png using Guid(cd8382c347d632741ba27969a621eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbf3893ba777b76c47d89b2abd5a037') in 0.027044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.213057 seconds.
+  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png
+  artifactKey: Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Fences.png using Guid(4d1bb0efda40aba42b9c36cf93e4a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ea44979467a1ad4e3e88acedcf586d') in 0.036095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.777184 seconds.
+  path: Assets/9.Sliced/Water tray.png
+  artifactKey: Guid(033f03bcd81153142a25f77019dec728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9.Sliced/Water tray.png using Guid(033f03bcd81153142a25f77019dec728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf904d65d2d684fe0fd41ae9843179b') in 0.015227 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004435 seconds.
+Registered in 0.004565 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
+- Completed reload, in  0.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (766ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (296ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.8 MB.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.3 MB.
+System memory in use after: 110.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3219.
-Total: 2.985100 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.100300 ms MarkObjects: 2.661100 ms  DeleteObjects: 0.021900 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 2.519200 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.278200 ms  DeleteObjects: 0.020600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1073,50 +709,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 153.081862 seconds.
+  path: Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png
+  artifactKey: Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World of Solaria Marketplace Tileset Update 04a/Market Canopies.png using Guid(68e67e1ec052f184c9cb292796f4beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd311b8681a4a71cb2ec1160ee1d5ac45') in 0.096874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.107847 seconds.
+  path: Assets/1.Scene/Slimes.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Slimes.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77b97b632dce2ffdabf8e71a8452efd') in 0.010171 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004373 seconds.
+Registered in 0.006282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.4 MB.
+System memory in use after: 110.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 4.778200 ms (FindLiveObjects: 0.521700 ms CreateObjectMapping: 0.075200 ms MarkObjects: 4.136100 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.316821 seconds.
+  path: Assets/The Legend of Slim/07 RPG/King/01.png
+  artifactKey: Guid(03f87ce11af60a345b3c65eeb9507da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/07 RPG/King/01.png using Guid(03f87ce11af60a345b3c65eeb9507da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2310e529f73a2c9fc7d82cdb6165f9f') in 0.044679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.473983 seconds.
+  path: Assets/1.Scene/Try1-Market+farm.unity
+  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb81b38549301f87e4fcdd7fb59e3715') in 0.008401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.934203 seconds.
+  path: Assets/The Legend of Slim/06 Element
+  artifactKey: Guid(efacf63cd949e5948bd2881a52c683ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/06 Element using Guid(efacf63cd949e5948bd2881a52c683ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfb242e7c49500714ef33b5bd477880') in 0.009702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.217748 seconds.
+  path: Assets/The Legend of Slim/06 Element/Fire/01.png
+  artifactKey: Guid(49458707f34ee69468a2e6c6f976c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/06 Element/Fire/01.png using Guid(49458707f34ee69468a2e6c6f976c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1609469a937155246a99041ffb325a28') in 0.015301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.179295 seconds.
+  path: Assets/The Legend of Slim/06 Element/Fire/02.png
+  artifactKey: Guid(c90c48a8031290140bf157139f19a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/06 Element/Fire/02.png using Guid(c90c48a8031290140bf157139f19a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcff8dd82b9157c33863e4acf5c1c99') in 0.015302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415348 seconds.
+  path: Assets/The Legend of Slim/06 Element/Fire/03.png
+  artifactKey: Guid(d75d744c2e99303479d31010d00ffff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/06 Element/Fire/03.png using Guid(d75d744c2e99303479d31010d00ffff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925737cd1e8570d519ac87fb5f46cd95') in 0.015241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375301 seconds.
+  path: Assets/The Legend of Slim/06 Element/Fire/04.png
+  artifactKey: Guid(bcdb532bb77ed9b4e84897c53933e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Legend of Slim/06 Element/Fire/04.png using Guid(bcdb532bb77ed9b4e84897c53933e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf8d2b6d96d3c7bec128a41a4c67ad1') in 0.016560 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004475 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.754 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
+	ReloadAssembly (755ms)
 		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (641ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (217ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (208ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.8 MB.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.4 MB.
+System memory in use after: 110.6 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3222.
-Total: 2.894100 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.069800 ms MarkObjects: 2.530100 ms  DeleteObjects: 0.021700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 2.420900 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.152800 ms  DeleteObjects: 0.020000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1130,60 +877,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004596 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3225.
-Total: 2.796800 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.496000 ms  DeleteObjects: 0.022600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 294.838408 seconds.
+  path: Assets/1.Scene/Try1-Market+farm 1.unity
+  artifactKey: Guid(c73ae05f2cd6d29459fa9f1a592a97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm 1.unity using Guid(c73ae05f2cd6d29459fa9f1a592a97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4672a4b252e7c5c39461c5942704ca9') in 0.013532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.097543 seconds.
+  path: Assets/1.Scene/Try1-Home.unity
+  artifactKey: Guid(c73ae05f2cd6d29459fa9f1a592a97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Home.unity using Guid(c73ae05f2cd6d29459fa9f1a592a97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e5b2cfccf94235cbbd21437bfea5ed') in 0.002896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.084438 seconds.
+  path: Assets/1.Scene/Try1-Market+farm.unity
+  artifactKey: Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Scene/Try1-Market+farm.unity using Guid(6bd94c3be2237b9428976db2b27e61b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c986cf1cd64cbd3eb94d803e84420dfe') in 0.003205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.365948 seconds.
+  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Wooden_House_Walls_Tilset.png
+  artifactKey: Guid(de9eb150be8e96a479ea13c186c9e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Wooden_House_Walls_Tilset.png using Guid(de9eb150be8e96a479ea13c186c9e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7617b022313391a60758325b0d080c') in 0.030018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.595253 seconds.
+  path: Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Wooden_House_Walls_Tilset.png
+  artifactKey: Guid(de9eb150be8e96a479ea13c186c9e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprout Lands - Sprites - premium pack/Tilesets/Building parts/Wooden_House_Walls_Tilset.png using Guid(de9eb150be8e96a479ea13c186c9e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e221e55abf35e4ce45e4e1d98600e6') in 0.037987 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
